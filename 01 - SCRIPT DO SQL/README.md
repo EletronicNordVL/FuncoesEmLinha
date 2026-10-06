@@ -12,8 +12,8 @@ Esta pasta reúne o script SQL completo para a criação, povoamento, consultas 
 O arquivo  está estruturado em 5 blocos principais de execução:
 
 ### 1. Estrutura do Banco de Dados (DDL)
-* Criação do banco de dados .
-* Criação das tabelas ,  (com atributo ) e  (tabela associativa com  e ).
+* Criação do banco de dados.
+* Criação das tabelas (com atributo ) e (tabela associativa com e).
 
 ### 2. Carga de Dados (DML)
 * Inserção de registros de alunos, disciplinas e notas para validação do ambiente.
@@ -21,22 +21,22 @@ O arquivo  está estruturado em 5 blocos principais de execução:
 ### 3. Consultas Analíticas Básicas e Avançadas
 * **Ordenação**: Alunos ordenados por idade.
 * **Junções com Filtro**: Alunos matriculados em disciplinas específicas (ex: Engenharia).
-* **Agregação**: Média geral por aluno com restrição .
+* **Agregação**: Média geral por aluno com restrição.
 * **Junção Externa**:  para incluir alunos sem disciplinas cadastradas ().
-* **Contagem**: Total de alunos por disciplina com filtro .
+* **Contagem**: Total de alunos por disciplina com filtro.
 
 ### 4. Funções de Linha (Built-in Functions)
-* Manipulação de strings com e .
-* Arredondamento numérico com .
-* Inserção de timestamp com .
+* Manipulação de strings com e.
+* Arredondamento numérico com.
+* Inserção de timestamp com.
 
 ### 5. Função do Usuário (UDF - User Defined Function)
 * 
   * Utiliza a redefinição de delimitador ().
   * Declaração de variáveis internas ().
-  * Atribuição de consultas a variáveis via .
+  * Atribuição de consultas a variáveis via.
   * Estrutura condicional () comparando a média calculada com a  da disciplina.
-  * Retorna uma string com o status ( / ).
+  * Retorna uma string com o status (/).
 
 ## 🚀 Como Executar no MySQL Workbench
 
